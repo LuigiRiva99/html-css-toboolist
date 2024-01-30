@@ -2,151 +2,160 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;  
 }
 
 ul,
 ol,
 menu {
 	list-style: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+li {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.header{
+    padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 .logo-title {
     display: inline-block;
+    font-size: 40px;
+    vertical-align: middle;
 }
 
-.main-box{
+.logo {
+    vertical-align: middle;
+    width: 50px;
+    margin-left: 50px;
+}
+
+
+.add{
     height: 50px;
-    border-bottom: 1px solid black;
-    padding: 5px;
+    border-bottom: 1px solid rgb(170, 169, 169);
+    padding-top: 10px;
+    padding-left: 60px;
 }
 
 .container {
     margin: 0 auto;
-    max-width: 1000px;                       
+    max-width: 1000px;   
+    background-color: white;
+    border-radius: 15px;   
 }
 
-.add {
+
+.badge,.section-option {
     display: inline-block;
-    border-color: rgb(0, 0, 0);
-    padding: 15px;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 10px;
+    border: 1px solid rgb(170, 169, 169);
 }
 
 .badge{
-    display: inline-block;
-    background-color: lightblue;
-    width: 80px;
+    background-color: rgb(38, 191, 242);
+    color: white;
+    width: 90px;
     height: 30px;
-    padding: 7px;
-    text-align: center;
-    vertical-align: middle;
+    
 }
 .section-option{
-    display: inline-block;
-    background-color: lightblue;
     width: 120px;
-    height: 30px;
-    padding: 7px;
-    text-align: center;
-    vertical-align: middle;
+    height: 30px; 
+    color: rgb(170, 169, 169);   
 }
 
 .list-box{
     height: 800px;
-    padding: 30px 50px;
+    padding: 30px 60px;
 }
 
-.editorial{
+.editorial, .website,
+.goals, .recruiting,
+.mobile, .sales {
     color: white;
     display: inline-block;
-    background-color: rgb(73, 191, 231);
-    width: 90px;
-    height: 25px;
     padding: 3px;
     text-align: center;
     border-radius: 15px;
     vertical-align: middle;
 }
 
-.check{
-    color: green;
+.editorial{   
+    background-color: rgb(73, 191, 231);
+    width: 90px;
+    height: 25px;   
+}
+
+.check, .cross{
     display: inline-block;
-    margin: 1px solid green;
-    width: 50px;
+    width: 30px;
     height: 30px;
-    padding: 7px;
+    padding: 3px;
     text-align: center;
     border-radius: 15px;
     vertical-align: middle;
+    margin-right: 10px;
+}
+
+.check{
+    color: green;  
+    border: 1px solid green;
 }
 
 .cross{
     color: red;
-    display: inline-block;
-    margin: 1px solid red;
-    width: 50px;
-    height: 30px;
-    padding: 7px;
-    text-align: center;
-    border-radius: 15px;
-    vertical-align: middle;
+    border: 1px solid red;
 }
 
 .goals{
-    color: white;
-    display: inline-block;
     background-color: rgb(191, 95, 250);
     width: 100px;
     height: 25px;
-    padding: 3px;
-    text-align: center;
-    border-radius: 15px;
-    vertical-align: middle;
 }
 
 .recruiting{
-    color: white;
-    display: inline-block;
     background-color: rgb(77, 212, 115);
     width: 110px;
     height: 25px;
-    padding: 3px;
-    text-align: center;
-    border-radius: 15px;
-    vertical-align: middle;
 }
 
 .mobile{
-    color: white;
-    display: inline-block;
     background-color: rgb(249, 154, 45);
     width: 80px;
     height: 25px;
-    padding: 3px;
-    text-align: center;
-    border-radius: 15px;
-    vertical-align: middle;
 }
 
 .website{
-    color: white;
-    display: inline-block;
     background-color: rgb(217, 109, 238);
     width: 90px;
     height: 25px;
-    padding: 3px;
-    text-align: center;
-    border-radius: 15px;
-    vertical-align: middle;
 }
 
 .sales{
-    color: white;
-    display: inline-block;
     background-color: rgb(78, 244, 161);
     width: 80px;
     height: 25px;
-    padding: 3px;
-    text-align: center;
-    border-radius: 15px;
-    vertical-align: middle;
 }
+
+.main {
+    background-color: rgb(215, 215, 215);
+    padding-top: 40px;
+    height: 1220px;
+}
+
+.header{
+    height: 90px;
+}
+
+
